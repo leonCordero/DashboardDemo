@@ -1,0 +1,44 @@
+<script th:inline="javascript">
+    /*<![CDATA[*/
+        var superlabels = [];
+        var supervalues = [];
+    /*]]>*/
+</script>
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading" th:text="${title}"></div>
+        <div class="panel-body">
+            <div class="canvas-wrapper">
+                <canvas class="main-chart" id="line" height="200" width="600"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<script th:each="info : ${data}" th:inline="javascript">
+    superlabels.push([[*{info.key}]])
+    supervalues.push([[*{info.value}]])
+</script>
+<script inline="javascript">
+    var lineChartData = {
+        labels: superlabels,
+        datasets: [
+            {
+                label: "My First dataset",
+                fillColor: "rgba(220,220,220,0.2)",
+                strokeColor: "rgba(220,220,220,1)",
+                pointColor: "rgba(220,220,220,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: supervalues
+            }
+        ]
+    };
+    window.onload = function () {
+        var chart = document.getElementById("line").getContext("2d");
+        window.myLine = new Chart(chart).Line(lineChartData, {
+            responsive: true
+        });
+    }
+</script>
+

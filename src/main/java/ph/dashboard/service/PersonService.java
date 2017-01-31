@@ -4,8 +4,7 @@ import org.springframework.stereotype.Service;
 import ph.dashboard.models.IPerson;
 import ph.dashboard.models.Person;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by leon on 26/01/2017.
@@ -24,6 +23,19 @@ public class PersonService implements IPersonService {
                 "78945612", "raymundo@ray.com"));
         people.add(new Person("jorge", 35, "male", "somewhere on switzerland",
                 "78454564", "jorgeemail@email.com"));
+        people.add(new Person("juan", 23, "male", "somewhere on the mine",
+                "78431234", "juanemail@email.com"));
         return  people;
     }
+
+    @Override
+    public Map<String, Double> getChartInfo() {
+        Map<String, Double> map = new HashMap<>();
+        Random random = new Random();
+        getPersons().forEach(person -> {
+            map.put(person.getName(), random.nextDouble());
+        });
+        return map;
+    }
+
 }

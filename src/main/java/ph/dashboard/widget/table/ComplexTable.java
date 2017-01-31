@@ -1,6 +1,8 @@
-package ph.dashboard.widget;
+package ph.dashboard.widget.table;
 
 import org.springframework.stereotype.Component;
+import ph.dashboard.widget.DataContainer;
+import ph.dashboard.widget.TableDataContainer;
 
 /**
  * Created by leon on 28/01/2017.
@@ -9,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class ComplexTable extends Table {
 
     @Override
-    public String create(WidgetDataContainer data, String[] heads) {
+    public String create(DataContainer data, String[] heads) {
         return super.create(data, heads);
     }
 

@@ -13,7 +13,9 @@ abstract public class Widget {
     @Autowired
     protected ApplicationContext appContext;
 
-    public abstract String create(WidgetDataContainer data, String[] heads);
+    public abstract String create(DataContainer data, String[] heads);
+
+    public abstract String create(DataContainer data);
 
     protected abstract String getViewName();
 }
