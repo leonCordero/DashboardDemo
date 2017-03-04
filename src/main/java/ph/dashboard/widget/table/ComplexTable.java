@@ -1,8 +1,7 @@
 package ph.dashboard.widget.table;
 
 import org.springframework.stereotype.Component;
-import ph.dashboard.widget.DataContainer;
-import ph.dashboard.widget.TableDataContainer;
+import ph.dashboard.widget.containers.DataContainer;
 
 /**
  * Created by leon on 28/01/2017.

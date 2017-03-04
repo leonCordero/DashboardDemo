@@ -3,6 +3,7 @@ package ph.dashboard.widget;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
+import ph.dashboard.widget.containers.DataContainer;
 
 /**
  * Created by leon on 28/01/2017.

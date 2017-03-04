@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import ph.dashboard.models.Person;
 import ph.dashboard.service.PersonService;
-import ph.dashboard.widget.CharDataContainer;
+import ph.dashboard.widget.containers.LineChartDataContainer;
 import ph.dashboard.widget.Widget;
-import ph.dashboard.widget.TableDataContainer;
+import ph.dashboard.widget.containers.TableDataContainer;
 import ph.dashboard.widget.size.SizeClass;
 
 import javax.annotation.Resource;
@@ -30,8 +30,14 @@ public class HomeController {
     @Resource(name = "tableWidget")
     private Widget table;
 
-    @Resource(name = "chartWidget")
-    private Widget chart;
+    @Resource(name = "lineChartWidget")
+    private Widget lineChart;
+
+    @Resource(name = "donutChartWidget")
+    private Widget donutChart;
+
+    @Resource(name = "pieChartWidget")
+    private Widget pieChart;
 
     @RequestMapping(value = "/")
     public ModelAndView index(ModelAndView modelAndView) {
@@ -51,8 +57,20 @@ public class HomeController {
 
         /*CHARTS*/
         /*LINE CHART*/
-        CharDataContainer charDataContainer = new CharDataContainer(getChartInfo(), "Line Chart", SizeClass.BIG_SIZE);
-        modelAndView.addObject("lineChart", chart.create(charDataContainer));
+        LineChartDataContainer lineChartDataContainer = new LineChartDataContainer(getChartInfo(), "Line Chart", SizeClass.BIG_SIZE);
+        lineChartDataContainer.setColor("#378ddd");
+        modelAndView.addObject("lineChart", lineChart.create(lineChartDataContainer));
+
+        /*DONUT CHART*/
+        lineChartDataContainer.setSize(SizeClass.MIDDLE_SIZE);
+        lineChartDataContainer.setTitle("Donut Chart");
+        modelAndView.addObject("donutChart", donutChart.create(lineChartDataContainer));
+
+        /*PIE CHART*/
+        lineChartDataContainer.setSize(SizeClass.MIDDLE_SIZE);
+        lineChartDataContainer.setTitle("Pie Chart");
+        modelAndView.addObject("pieChart", pieChart.create(lineChartDataContainer));
+
 
         modelAndView.setViewName("content/testContent");
         return modelAndView;

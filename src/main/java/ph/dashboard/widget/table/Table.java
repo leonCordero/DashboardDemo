@@ -3,7 +3,7 @@ package ph.dashboard.widget.table;
 import org.springframework.stereotype.Component;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.spring4.SpringTemplateEngine;
-import ph.dashboard.widget.DataContainer;
+import ph.dashboard.widget.containers.DataContainer;
 import ph.dashboard.widget.Widget;
 
 import java.util.ArrayList;
@@ -24,7 +24,7 @@ public class Table extends Widget {
         context.setVariable("data", dataResolved);
         context.setVariable("header", heads);
         context.setVariable("title", data.getTitle());
-        context.setVariable("sizeTable", data.getSize());
+        context.setVariable("size", data.getSize());
         return templateEngine.process(getViewName(), context);
     }
 
