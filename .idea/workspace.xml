@@ -2,78 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ebf3d5-d2cb-40d6-86a1-767fb22ab677" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT.war" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT.war.original" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT.war.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap-table.css" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/datepicker.css" afterPath="$PROJECT_DIR$/target/classes/static/css/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/datepicker3.css" afterPath="$PROJECT_DIR$/target/classes/static/css/datepicker3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/ChartsInit.js" afterPath="$PROJECT_DIR$/target/classes/static/js/ChartsInit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/Dashboard.js" afterPath="$PROJECT_DIR$/target/classes/static/js/Dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap-table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/chart-data.js" afterPath="$PROJECT_DIR$/target/classes/static/js/chart-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/chart.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/chart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/easypiechart-data.js" afterPath="$PROJECT_DIR$/target/classes/static/js/easypiechart-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/easypiechart.js" afterPath="$PROJECT_DIR$/target/classes/static/js/easypiechart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-1.11.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/respond.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/content/testContent.html" afterPath="$PROJECT_DIR$/target/classes/templates/content/testContent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/layout/head.html" afterPath="$PROJECT_DIR$/target/classes/templates/layout/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/layout/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/layout/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/layout/mainLayout.html" afterPath="$PROJECT_DIR$/target/classes/templates/layout/mainLayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/layout/sideBar.html" afterPath="$PROJECT_DIR$/target/classes/templates/layout/sideBar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/widgets/complexTable.html" afterPath="$PROJECT_DIR$/target/classes/templates/widgets/complexTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/widgets/donutChart.html" afterPath="$PROJECT_DIR$/target/classes/templates/widgets/donutChart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/widgets/lineChart.html" afterPath="$PROJECT_DIR$/target/classes/templates/widgets/lineChart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/widgets/pieChart.html" afterPath="$PROJECT_DIR$/target/classes/templates/widgets/pieChart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/widgets/simpleTable.html" afterPath="$PROJECT_DIR$/target/classes/templates/widgets/simpleTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap-table.css" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap-table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/datepicker.css" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/datepicker3.css" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/css/datepicker3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/ChartsInit.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/ChartsInit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/Dashboard.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/Dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap-table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/chart-data.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/chart-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/chart.min.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/chart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/easypiechart-data.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/easypiechart-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/easypiechart.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/easypiechart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/jquery-1.11.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/respond.min.js" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/static/js/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/content/testContent.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/content/testContent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/head.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/header.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/mainLayout.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/mainLayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/sideBar.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/layout/sideBar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/complexTable.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/complexTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/donutChart.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/donutChart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/lineChart.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/lineChart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/pieChart.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/pieChart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/simpleTable.html" afterPath="$PROJECT_DIR$/target/dashboarddemo-ROOT/WEB-INF/classes/templates/widgets/simpleTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ph.dashboard.DashboarddemoApplicationTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ph.dashboard.DashboarddemoApplicationTests.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ph.dashboard.DashboarddemoApplicationTests.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ph.dashboard.DashboarddemoApplicationTests.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.config.xml" afterPath="$PROJECT_DIR$/web.config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -113,8 +43,8 @@
       <file leaf-file-name="web.config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web.config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="161" lean-forward="false" selection-start-line="7" selection-start-column="161" selection-end-line="7" selection-end-column="161" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -910,12 +840,12 @@
       <workItem from="1487032057283" duration="5100000" />
       <workItem from="1488423496804" duration="7573000" />
       <workItem from="1488508919789" duration="4566000" />
-      <workItem from="1488648004493" duration="6362000" />
+      <workItem from="1488648004493" duration="7394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69641000" />
+    <option name="totallyTimeSpent" value="70673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1405,8 +1335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="161" lean-forward="false" selection-start-line="7" selection-start-column="161" selection-end-line="7" selection-end-column="161" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
