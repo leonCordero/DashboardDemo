@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71ebf3d5-d2cb-40d6-86a1-767fb22ab677" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.config.xml" afterPath="$PROJECT_DIR$/web.config.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web.config.xml" afterPath="$PROJECT_DIR$/web.config" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.config.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web.config.xml">
+      <file leaf-file-name="web.config" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="161" lean-forward="false" selection-start-line="7" selection-start-column="161" selection-end-line="7" selection-end-column="161" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -840,12 +840,12 @@
       <workItem from="1487032057283" duration="5100000" />
       <workItem from="1488423496804" duration="7573000" />
       <workItem from="1488508919789" duration="4566000" />
-      <workItem from="1488648004493" duration="8596000" />
+      <workItem from="1488648004493" duration="9210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71875000" />
+    <option name="totallyTimeSpent" value="72489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1333,10 +1333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web.config.xml">
+    <entry file="file://$PROJECT_DIR$/web.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="161" lean-forward="false" selection-start-line="7" selection-start-column="161" selection-end-line="7" selection-end-column="161" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
