@@ -43,8 +43,8 @@
       <file leaf-file-name="web.config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web.config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="7" column="161" lean-forward="false" selection-start-line="7" selection-start-column="161" selection-end-line="7" selection-end-column="161" />
               <folding />
             </state>
           </provider>
@@ -840,12 +840,12 @@
       <workItem from="1487032057283" duration="5100000" />
       <workItem from="1488423496804" duration="7573000" />
       <workItem from="1488508919789" duration="4566000" />
-      <workItem from="1488648004493" duration="7394000" />
+      <workItem from="1488648004493" duration="8596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70673000" />
+    <option name="totallyTimeSpent" value="71875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1335,8 +1335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="161" lean-forward="false" selection-start-line="7" selection-start-column="161" selection-end-line="7" selection-end-column="161" />
           <folding />
         </state>
       </provider>
