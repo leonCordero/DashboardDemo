@@ -5,6 +5,7 @@ ph\dashboard\widget\containers\TableDataContainer.class
 ph\dashboard\service\IPersonService.class
 ph\dashboard\widget\containers\LineChartDataContainer.class
 ph\dashboard\service\PersonService.class
+ph\dashboard\widget\containers\RoundChartDataContainer.class
 ph\dashboard\widget\containers\DataContainer.class
 ph\dashboard\DashboardDemoApplication.class
 ph\dashboard\widget\table\ComplexTable.class
@@ -15,3 +16,4 @@ ph\dashboard\models\IPerson.class
 ph\dashboard\widget\table\Table.class
 ph\dashboard\models\Person.class
 ph\dashboard\widget\Widget.class
+ph\dashboard\widget\colors\RoundChartsColors.class

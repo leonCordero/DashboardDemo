@@ -1,6 +1,7 @@
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\containers\DataContainer.java
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\Widget.java
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\table\Table.java
+E:\DashboardDemo\src\main\java\ph\dashboard\widget\containers\RoundChartDataContainer.java
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\chart\PieChart.java
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\chart\LineChart.java
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\chart\Chart.java
@@ -8,6 +9,7 @@ E:\DashboardDemo\src\main\java\ph\dashboard\service\PersonService.java
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\chart\DonutChart.java
 E:\DashboardDemo\src\main\java\ph\dashboard\controller\HomeController.java
 E:\DashboardDemo\src\main\java\ph\dashboard\service\IPersonService.java
+E:\DashboardDemo\src\main\java\ph\dashboard\widget\colors\RoundChartsColors.java
 E:\DashboardDemo\src\main\java\ph\dashboard\DashboardDemoApplication.java
 E:\DashboardDemo\src\main\java\ph\dashboard\models\Person.java
 E:\DashboardDemo\src\main\java\ph\dashboard\widget\containers\TableDataContainer.java

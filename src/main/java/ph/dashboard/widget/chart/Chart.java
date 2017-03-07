@@ -10,6 +10,7 @@ import ph.dashboard.widget.containers.LineChartDataContainer;
  * Created by leon on 01/03/2017.
  */
 public class Chart extends Widget {
+
     @Override
     public String create(DataContainer data, String[] heads) {
         return null;
@@ -26,7 +27,7 @@ public class Chart extends Widget {
         return templateEngine.process(getViewName(), context);
     }
 
-    private void setColor(Context context, DataContainer data) {
+    protected void setColor(Context context, DataContainer data) {
         LineChartDataContainer lineChartDataContainer = (LineChartDataContainer) data;
         if(lineChartDataContainer.getColor() != null) {
             context.setVariable("color", lineChartDataContainer.getColor());
