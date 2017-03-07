@@ -8,6 +8,7 @@ import ph.dashboard.models.Person;
 import ph.dashboard.service.PersonService;
 import ph.dashboard.widget.containers.LineChartDataContainer;
 import ph.dashboard.widget.Widget;
+import ph.dashboard.widget.containers.RoundChartDataContainer;
 import ph.dashboard.widget.containers.TableDataContainer;
 import ph.dashboard.widget.size.SizeClass;
 
@@ -62,14 +63,21 @@ public class HomeController {
         modelAndView.addObject("lineChart", lineChart.create(lineChartDataContainer));
 
         /*DONUT CHART*/
-        lineChartDataContainer.setSize(SizeClass.MIDDLE_SIZE);
-        lineChartDataContainer.setTitle("Donut Chart");
-        modelAndView.addObject("donutChart", donutChart.create(lineChartDataContainer));
+        RoundChartDataContainer roundChartDataContainer = new RoundChartDataContainer(getChartInfo(), "Donut Chart", SizeClass.MIDDLE_SIZE);
+        modelAndView.addObject("donutChart", donutChart.create(roundChartDataContainer));
+
+//        roundChartDataContainer.setTitle("Donut Chart 2");
+//        roundChartDataContainer.setCharData(getChartInfo());
+//        modelAndView.addObject("donutChart2", donutChart.create(roundChartDataContainer));
 
         /*PIE CHART*/
-        lineChartDataContainer.setSize(SizeClass.MIDDLE_SIZE);
-        lineChartDataContainer.setTitle("Pie Chart");
-        modelAndView.addObject("pieChart", pieChart.create(lineChartDataContainer));
+        roundChartDataContainer.setTitle("Pie Chart");
+        roundChartDataContainer.setCharData(getChartInfo());
+        modelAndView.addObject("pieChart", pieChart.create(roundChartDataContainer));
+
+//        roundChartDataContainer.setTitle("Pie Char 2");
+//        roundChartDataContainer.setCharData(getChartInfo());
+//        modelAndView.addObject("pieChart2", pieChart.create(roundChartDataContainer));
 
 
         modelAndView.setViewName("content/testContent");

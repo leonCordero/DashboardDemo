@@ -1,6 +1,8 @@
 package ph.dashboard.widget.chart;
 
 import org.springframework.stereotype.Component;
+import org.thymeleaf.context.Context;
+import ph.dashboard.widget.colors.RoundChartsColors;
 import ph.dashboard.widget.containers.DataContainer;
 
 /**
@@ -21,5 +23,10 @@ public class DonutChart extends Chart {
     @Override
     protected String getViewName() {
         return "widgets/donutChart";
+    }
+
+    @Override
+    protected void setColor(Context context, DataContainer data) {
+        context.setVariable("colors", RoundChartsColors.Colors);
     }
 }
